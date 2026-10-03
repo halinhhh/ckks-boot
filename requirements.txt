@@ -1,0 +1,16 @@
+# Python 3.11 (verified with CPython 3.11.17; also runs on 3.13).
+#
+# Every script except the two marked below is pure NumPy on ideal (unencrypted) values.
+numpy==2.4.6
+
+# ---------------------------------------------------------------------------------------------
+# Optional, only for scripts/estimate_security.py (tab:security). Not pip-installable here:
+#   SageMath (provides `sage -python`), and the lattice estimator checked out at commit 53da598:
+#     git clone https://github.com/malb/lattice-estimator && git -C lattice-estimator checkout 53da598
+#   then pass --estimator /path/to/lattice-estimator
+#
+# Optional, only for scripts/measure_ref_n17.py (E5, unverified library reference):
+#   OpenFHE built from openfhe-development at commit ed361af, with the Python bindings
+#   (package version 1.5.1.0.24.4), 64-bit native integers:
+# openfhe==1.5.1.0.24.4
+# ---------------------------------------------------------------------------------------------
