@@ -1,4 +1,4 @@
-# Artifact: Verifiable CKKS Bootstrapping with Certified Numerical Soundness
+# Verifiable CKKS Bootstrapping with Certified Numerical Soundness
 
 These scripts compute or check every numerical claim in the paper's evaluation, landscape and appendix tables. Each script starts with **gates**: checks against known values or independent computations. A script stops with exit code 1 if any gate fails, so a number is printed only after its gates pass.
 
